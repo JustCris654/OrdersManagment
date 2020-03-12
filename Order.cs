@@ -53,7 +53,7 @@ namespace _002_StandManagment {
 			       "Ora ordinazione: "      + _supplied.ToString() + "\n" +
 			       "Servito: "              + _isProcessed         + "\n";
 		}
-
+		
 		//copia profonda dato che l'oggetto contiene altri oggetti
 		public Order DeepCopy ( ) {
 			Order order = (Order) this.MemberwiseClone();
